@@ -13,5 +13,8 @@ print(series)
 ```
 
 
-
+```python
+import sys
+print(sys.executable)
+```
 
