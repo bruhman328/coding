@@ -10,3 +10,10 @@ series = pd.Series(data)
 print(series)
 
 ```
+
+
+pyt
+
+```python
+print(1)
+```
