@@ -11,9 +11,4 @@ print(series)
 
 ```
 
-
-pyt
-
-```python
-print(1)
-```
+![[{5C02FDD6-2983-4C9A-920D-71F1F455405C} 2.png]]
