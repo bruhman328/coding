@@ -5,6 +5,8 @@ import pandas as pd
 
 data = [1, 2, 3]
 
-pd.
+series = pd.Series(data)
+
+print(series)
 
 ```
