@@ -30,5 +30,6 @@ data = {
 df = pd.DataFrame(data, index=['Employee 1', 'Employee 2', 'Employee 3'])
 
 print(df.loc['Employee 1'])
-# can also put a list of columns inside the brackets for multiple columns
+print(df.loc['Employee 1':])
+# can also put a list of rows inside the brackets for multiple rows
 ```
