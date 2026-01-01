@@ -37,12 +37,12 @@ loc and iloc
 
   ages = [23, 27, 12]
 	  
-  series = pd.Series(ages, index=['John', 'Adam', 'Becky'])
+  series1 = pd.Series(ages, index=['John', 'Adam', 'Becky'])
   
   data = [1, 2, 3]
 
-  series = pd.Series(data)
+  series2 = pd.Series(data)
   
-  
-  print(series.loc)
+  print(series1.loc['Adam'])
+  print(series2.iloc[0])
   ```
