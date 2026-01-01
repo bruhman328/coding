@@ -14,6 +14,8 @@ print(series)
 
 ```
 
+
+ 
 - You can set a specific index, so it doesn't only have to be labeled by numbers
 	- ```python
 	  import pandas as pd
@@ -25,3 +27,7 @@ print(series)
 	  print(series)
 	  ```
 
+
+
+loc and iloc
+- loc is used to 
