@@ -30,4 +30,5 @@ print(series)
 
 
 loc and iloc
-- loc is used to 
+- loc is used to locate the value at a specific index, even if the index key is a string
+- iloc is used for 
