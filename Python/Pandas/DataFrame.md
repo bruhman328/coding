@@ -40,3 +40,15 @@ print(df)
 
 
 Can also set what you want as the index
+```python
+import pandas as pd
+
+data = {
+	'Name' : ['Spongebob', 'Mr. Krabs', 'Squidward'],
+	'Hourly Pay' : [17, 100, 15]
+}
+
+df = pd.DataFrame(data, index_col='Name'])
+
+print(df)
+```
