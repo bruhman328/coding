@@ -12,6 +12,6 @@ data = {
 
 df = pd.DataFrame(data, index=['Employee 1', 'Employee 2', 'Employee 3'])
 
-print(df['Name'.])
+print(df['Name'].to_string())
 ```
 
