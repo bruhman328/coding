@@ -14,7 +14,7 @@ print(df)
 ```
 
 
-Adding a new column
+Adding a new column and row
 ```python
 import pandas as pd
 
@@ -27,6 +27,9 @@ df = pd.DataFrame(data, index=['Employee 1', 'Employee 2', 'Employee 3'])
 
 print(df)
 
-df['Ages'] = [30, ]
+df['Ages'] = [30, 58, 32]
+new_row = pd.DataFrame
+print(df)
 
 ```
+
