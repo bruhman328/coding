@@ -36,6 +36,6 @@ new_row = pd.DataFrame([{'Name' : 'Sandy', 'Hourly Pay' : 18, 'Age' : 27}], inde
 
 df = pd.concat([df, new_row])
 
-print(df.loc['Employee 1':'Employee 3'])
+print(df.loc['Employee 1':'Employee 3', ['Name', 'Hourly Pay']])
 # can also put a list of rows inside the brackets for multiple rows
 ```
