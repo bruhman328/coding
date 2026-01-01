@@ -37,3 +37,6 @@ print(df)
 
 ```
 
+
+
+Can also set what you want as the index
