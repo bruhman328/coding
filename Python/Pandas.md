@@ -14,5 +14,12 @@ print(series)
 
 ```
 
-	
+- You can set a specific index, so it doesn't only have to be labeled by numbers
+	- ```python
+	  import pandas as pd
+	  
+	  ages = [23, 27, 12]
+	  
+	  se
+	  ```
 
