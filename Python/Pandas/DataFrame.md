@@ -28,7 +28,7 @@ df = pd.DataFrame(data, index=['Employee 1', 'Employee 2', 'Employee 3'])
 print(df)
 
 df['Age'] = [30, 58, 32]
-new_row = pd.DataFrame([{'Name' : 'Sandy', 'Hourly Pay' : 18, 'Age' : 27}], index=['Employee 3']])
+new_row = pd.DataFrame([{'Name' : 'Sandy', 'Hourly Pay' : 18, 'Age' : 27}], index=['Employee 3'])
 
 df = pd.concat([df, new_row])
 
