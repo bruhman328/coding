@@ -67,5 +67,11 @@ Updating values
 ```python
 import pandas as pd
 
-data = 
+data = [4, 5, 6]
+
+series = pd.Series(data)
+print(series)
+
+series.iloc[1] += 5
+print()
 ```
