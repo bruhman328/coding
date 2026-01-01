@@ -20,7 +20,7 @@ print(series)
 	  
 	  ages = [23, 27, 12]
 	  
-	  series = pd.Series(data, index=['John', 'Adam', 'Becky'])
+	  series = pd.Series(ages, index=['John', 'Adam', 'Becky'])
 	  
 	  print(series)
 	  ```
