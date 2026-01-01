@@ -49,4 +49,9 @@ loc and iloc
 
 
 
-Dictionaries already basical
+Dictionaries have their own index names already
+```python
+import pandas as pd
+
+data = {'Tim'}
+```
