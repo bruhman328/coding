@@ -37,6 +37,6 @@ df = pd.concat([df, new_row])
 print(df)
 
 print(df.loc['Employee 1':'Employee 3', ['Name', 'Hourly Pay']])
-print(df.iloc[1:3, 1:2])
+print(df.iloc[1:4, 1:3])
 # can also put a list of rows inside the brackets for multiple rows
 ```
