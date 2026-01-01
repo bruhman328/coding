@@ -59,3 +59,13 @@ series = pd.Series(data)
 
 print(series)
 ```
+
+
+
+Updating values
+- You can just use the basic +=, -=, etc operators to update any values
+```python
+import pandas as pd
+
+data = 
+```
