@@ -18,9 +18,9 @@ print(series)
 	- ```python
 	  import pandas as pd
 	  
-	  ages = [23, 27, 12]
+	  data = [23, 27, 12]
 	  
-	  series = pd.Series(ages, index=['John', 'Adam', 'Becky'])
+	  series = pd.Series(data, index=['John', 'Adam', 'Becky'])
 	  
 	  print(series)
 	  ```
