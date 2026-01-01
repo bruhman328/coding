@@ -75,3 +75,16 @@ print(series)
 series.iloc[1] += 5
 print(series)
 ```
+
+
+
+Locating using a specific range
+```python
+import pandas as pd
+
+data = [1, 2, 3]
+
+series = pd.Series(data)
+
+print(series.loc[series>])
+```
