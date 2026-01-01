@@ -53,5 +53,9 @@ Dictionaries have their own index names already
 ```python
 import pandas as pd
 
-data = {'Tim'}
+data = {'Tim' : 15, 'Bob' : 19, 'Gilbert' : 17}
+
+series = pd.Series(data)
+
+print(series)
 ```
