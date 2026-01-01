@@ -31,4 +31,11 @@ print(series)
 
 loc and iloc
 - loc is used to locate the value at a specific index, even if the index key is a string
-- iloc is used for 
+- iloc is used to locate the value at a specific index, using an integer. Whether its the first index or the last index or whatever
+- ```python
+  import pandas as pd
+
+  data = [1, 2, 3]
+  
+  series = pd.Series(data)
+  ```
