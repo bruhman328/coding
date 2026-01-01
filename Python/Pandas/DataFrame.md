@@ -8,7 +8,12 @@ data = {
 	'Hourly Pay' : [17, 100, 15]
 }
 
-df = pd.DataFrame(data, index=['Employee 1', 'Employee 2', 'Employee 3])
+df = pd.DataFrame(data, index=['Employee 1', 'Employee 2', 'Employee 3'])
 
 print(df)
+```
+
+
+Adding a new column
+```
 ```
