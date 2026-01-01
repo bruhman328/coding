@@ -46,3 +46,7 @@ loc and iloc
   print(series1.loc['Adam'])
   print(series2.iloc[0])
   ```
+
+
+
+Dictionaries already basical
