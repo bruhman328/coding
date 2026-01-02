@@ -24,7 +24,7 @@ Handle missing data
 import pandas as pd
 
 data = {'Name': ['Jack', 'James', 'Jimmy', 'John', 'Jorge'], 
-		'Height' : [5.5, 5.8,'NA', 5.95, 5.825],
+		'Height' : [5.5, 5.8,pd., 5.95, 5.825],
 		'Age' : [19, 18, 20, 22, 24]
 }
 
