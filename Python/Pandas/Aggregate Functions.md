@@ -20,6 +20,10 @@ print(df.max(numeric_only=True))
 print(df.count())
 
 # Single Column
-print(df[])
+print(df['Age'].mean())
+print(df['Age'].sum())
+print(df['Age'].min())
+print(df['Age'].max())
+print(df['Age'].count())
 
 ```
