@@ -14,6 +14,6 @@ data = {'Name': ['Jack', 'James', 'Jimmy', 'John', 'Jorge'],
 
 df = pd.DataFrame(data)
 
-df = df.drop(columns=['Age', df['Age'] < 20])
+df = df.drop(columns=['Age'])
 print(df)
 ```
