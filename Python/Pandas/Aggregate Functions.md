@@ -26,3 +26,8 @@ print(df['Age'].min())
 print(df['Age'].max())
 print(df['Age'].count())
 ```
+
+
+
+groupby() function
+- You can use this function to group together rows such as the 
