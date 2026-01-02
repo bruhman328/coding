@@ -13,6 +13,6 @@ df = pd.DataFrame(data)
 
 # Whole DataFrame
 
-print(df.mean())
+print(df.mean(numeric_only))
 
 ```
