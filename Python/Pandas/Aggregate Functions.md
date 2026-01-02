@@ -30,4 +30,16 @@ print(df['Age'].count())
 
 
 groupby() function
-- You can use this function to group together rows such as the 
+- You can use this function to group together rows
+```python
+import pandas as pd
+
+data = {'Name': ['Jack', 'James', 'Jimmy', 'John', 'Jorge'], 
+		'Height' : [5.5, 5.8, 5.5, 5.8, 5.825],
+		'Age' : [19, 18, 20, 22, 24]
+}
+
+df = pd.DataFrame(data)
+
+group = df.groupby('Height')
+```
