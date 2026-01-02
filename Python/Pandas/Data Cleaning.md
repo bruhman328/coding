@@ -30,5 +30,6 @@ data = {'Name': ['Jack', 'James', 'Jimmy', 'John', 'Jorge'],
 
 df = pd.DataFrame(data)
 
-df = df.dropna(subset)
+df = df.dropna(subset=['Height'])
+print(df)
 ```
