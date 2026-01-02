@@ -9,5 +9,6 @@ data = {'Name': ['Jack', 'James', 'Jimmy', 'John', 'Jorge'],
 		'Age' : [19, 18, 20, 22, 24]
 }
 
-df = pd.DataFrame()
+df = pd.DataFrame(data, index_col=data['Name'])
+print(df)
 ```
