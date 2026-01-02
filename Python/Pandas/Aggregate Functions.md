@@ -25,5 +25,4 @@ print(df['Age'].sum())
 print(df['Age'].min())
 print(df['Age'].max())
 print(df['Age'].count())
-
 ```
