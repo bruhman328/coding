@@ -13,6 +13,13 @@ df = pd.DataFrame(data)
 
 # Whole DataFrame
 
-print(df.mean(numeric_only))
+print(df.mean(numeric_only=True))
+print(df.sum(numeric_only=True))
+print(df.min(numeric_only=True))
+print(df.max(numeric_only=True))
+print(df.count())
+
+# Single Column
+print(df[])
 
 ```
