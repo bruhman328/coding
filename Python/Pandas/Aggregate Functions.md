@@ -4,5 +4,7 @@ Aggregate functions reduce a set of values into a single summary value used to s
 ```python
 import pandas as pd
 
-data = {'Names': []}
+data = {'Name': ['Jack', 'James', 'Jimmy', 'John', 'Jorge'], 
+		'Height' : [5.5, 5.8, 5.7, ]
+}
 ```
