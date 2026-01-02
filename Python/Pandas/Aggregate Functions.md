@@ -35,11 +35,13 @@ groupby() function
 import pandas as pd
 
 data = {'Name': ['Jack', 'James', 'Jimmy', 'John', 'Jorge'], 
-		'Height' : [5.5, 5.8, 5.5, 5.8, 5.825],
+		'Height' : [5.8, 5.8, 5.5, 5.8, 5.825],
 		'Age' : [19, 18, 20, 22, 24]
 }
 
 df = pd.DataFrame(data)
 
 group = df.groupby('Height')
+
+print(group['Age'].mean())
 ```
