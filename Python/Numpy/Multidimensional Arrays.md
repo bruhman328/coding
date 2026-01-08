@@ -14,5 +14,8 @@ print(a)
 import numpy as np
 # 3D
 
-a = np.array([[1, 2], []])
+a = np.array([
+				[[1, 2], [3, 4]],
+				[]
+			])
 ```
