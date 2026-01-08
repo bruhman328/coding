@@ -1,6 +1,6 @@
 
 Slicing means to output a specific range of indexes
-- note that slicing is exclusive, so 
+- note that slicing is exclusive, so do n:m+1 or n:-1
 
 ```python
 import numpy as pd
