@@ -19,5 +19,9 @@ plt.show()
 ```python
 import matplotlib.pyplot as plt
 
-x =
+y = [5, 10, 15]
+
+# plotting only the y values,
+plt.plot(y)
+
 ```
