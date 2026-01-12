@@ -30,9 +30,11 @@ plt.show()
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
-# we can also use numpy arrays since they are faster than lists
+# we can also use numpy arrays since they are faster than lists and give more func
 
 x = np.array([4, 8, 12])
 y = np.array([25, 38, 52])
 
+plt.plot(x, y)
+plt.show()
 ```
