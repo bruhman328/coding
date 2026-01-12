@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # create x coordinates
 x = [2023, 2024, 2025
 # create y coordinates
-y = [2500, 2600, 2700]
+y = [6500, 7600, 9700]
 
+plt.plot(x, y)
 ```
