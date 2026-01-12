@@ -69,7 +69,8 @@ y1 = np.array([10, 73, 129])
 y2 = np.array([55, 23, 87])
 
 line_style = dict(marker='*',
-			   markersize=30,			           markerfacecolor='red',
+			   markersize=30,			         
+			   markerfacecolor='red',
 			   linestyle='dashed',
 			   linewidth=4,
 			   color='green')
