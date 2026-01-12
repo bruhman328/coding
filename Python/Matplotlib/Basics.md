@@ -26,3 +26,9 @@ plt.plot(y)
 plt.show()
 
 ```
+
+```python
+import matplotlib.pyplot as plt
+
+# we can also use numpy arrays,
+```
