@@ -24,6 +24,6 @@ y = np.array([10, 73, 129])
 # we can also set the marker size or ms and markercolor
 plt.plot(x, y, marker='*',
 				markersize = 30,
-				mark)
+				markercolor = 'red')
 plt.show()
 ```
