@@ -68,7 +68,9 @@ x = np.array([2, 4, 6])
 y1 = np.array([10, 73, 129])
 y2 = np.array([55, 23, 87])
 
-# now if you wanna use the same customization for both lines, you could just copy it but the best way
+line_style = dict(marker='*',
+			   markersize=30,			           markerfacecolor='red',)
+# now if you wanna use the same customization for both lines, you could just copy it but the best way is to place it into a dictionary
 plt.plot(x, y, marker='*')
 plt.show()
 ```
