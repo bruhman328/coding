@@ -55,6 +55,7 @@ y2 = np.array([55, 23, 87])
 
 # you can also plot multiple different lines, through using different x and y values
 
-plt.plot(x, y, marker='*')
+plt.plot(x, y1)
+plt.plot(x, y2)
 plt.show()
 ```
