@@ -65,9 +65,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.array([2, 4, 6])
-y = np.array([10, 73, 129])
+y1 = np.array([10, 73, 129])
+y2 = np.array([55, 23, 87])
 
-# marker will be what those points on the plot will show up as, you can use any symbol
+# now if you wanna use the same customization for both lines, you could just copy it but the best way
 plt.plot(x, y, marker='*')
 plt.show()
 ```
