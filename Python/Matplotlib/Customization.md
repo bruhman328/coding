@@ -77,7 +77,7 @@ line_style = dict(marker='*',
 			   
 # now if you wanna use the same customization for both lines, you could just copy it but the best way is to place it into a dictionary
 
-plt.plot(x, y1, line_style)
-plt.plot(x, y2, line_style)
+plt.plot(x, y1, **line_style)
+plt.plot(x, y2, **line_style)
 plt.show()
 ```
