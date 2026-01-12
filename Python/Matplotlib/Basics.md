@@ -21,7 +21,8 @@ import matplotlib.pyplot as plt
 
 y = [5, 10, 15]
 
-# plotting only the y values,
+# plotting only the y values defaults the x values to have increments of 1, but have 1/2 ticks
 plt.plot(y)
+plt.show()
 
 ```
