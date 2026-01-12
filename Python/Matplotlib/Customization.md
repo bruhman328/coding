@@ -49,7 +49,7 @@ import numpy as np
 x = np.array([2, 4, 6])
 y = np.array([10, 73, 129])
 
-# you can also plot multiple different lines, through using di
+# you can also plot multiple different lines, through using different x and y values
 plt.plot(x, y, marker='*')
 plt.show()
 ```
