@@ -3,6 +3,9 @@ Matplotlib allows us to create graphs of data, this is very helpful in several s
 
 ```python
 import matplotlib.pyplot as plt
-# create x cordinates
-x = [2023, 2024, 2025]
+# create x coordinates
+x = [2023, 2024, 2025
+# create y coordinates
+y = [2500, 2600, 2700]
+
 ```
