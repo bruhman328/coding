@@ -34,8 +34,9 @@ import numpy as np
 x = np.array([2, 4, 6])
 y = np.array([10, 73, 129])
 
-# you can also customize the line style like dashed, dotted, dashdot, or n
+# you can also customize the line style like dashed, dotted, dashdot, solid, or None(for no line). you can also change the line width
 plt.plot(x, y, marker='*',
-				linestyle='dashed')
+				linestyle='dashed'
+				linewidth=4)
 plt.show()
 ```
