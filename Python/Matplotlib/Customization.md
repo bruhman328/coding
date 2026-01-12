@@ -6,4 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.array([2, 4, 6])
+y = np.array([10, 73, 129])
+
+plt.plot(x, y)
 ```
