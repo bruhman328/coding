@@ -41,3 +41,15 @@ plt.plot(x, y, marker='*',
 				color='green',)
 plt.show()
 ```
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array([2, 4, 6])
+y = np.array([10, 73, 129])
+
+# you can also plot multiple different lines, through using di
+plt.plot(x, y, marker='*')
+plt.show()
+```
