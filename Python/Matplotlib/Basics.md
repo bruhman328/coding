@@ -15,3 +15,9 @@ plt.plot(x, y)
 plt.show()
 
 ```
+
+```python
+import matplotlib.pyplot as plt
+
+x =
+```
