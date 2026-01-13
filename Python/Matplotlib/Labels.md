@@ -8,6 +8,7 @@ y2 = np.array([17, 23, 38, 5])
 y3 = np.array([13, 15, 20, 30])
 
 # we can set a title 
+plt.title('Class size')
 plt.plot(x, y1)
 plt.plot(x, y2)
 plt.plot(x, y3)
