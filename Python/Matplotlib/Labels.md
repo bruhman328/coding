@@ -9,8 +9,17 @@ y2 = np.array([17, 23, 38, 5])
 y3 = np.array([13, 15, 20, 30])
 
 # we can set a title 
-plt.title('Class size', fontsize=25
-						)
+plt.title('Class size', fontsize=25,
+						family='Arial',
+						fontweight='bold',
+						color='red')
+
+# we can set a x and y axis label
+plt.xlabel('Year', fontsize=20, family='Arial')
+plt.ylabel('Count', fontsize=20, family='Arial')
+
+# we can also force ticks to display only at the the given points instead of the numbers between each tick
+plt.xticks(x)
 
 plt.plot(x, y1)
 plt.plot(x, y2)
