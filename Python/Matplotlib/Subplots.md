@@ -1,6 +1,5 @@
 
-A figure is the entire canvas in which we plot to
-An ax is a single plot(subplot), which is technically a numpy array
+A figure is the entire canvas in which we plot to. An ax is a single plot(subplot), which is technically a numpy array
 
 ```python
 import matplotlib.pyplot as plt
